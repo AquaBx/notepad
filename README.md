@@ -8,3 +8,5 @@
 
 - Ajouts de fonction
 - Réparer le menu
+- Fonction de sélection
+- Build des inputs customs
