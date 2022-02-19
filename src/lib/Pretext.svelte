@@ -1,5 +1,6 @@
 <script>
     let styles_params = ["font-size","font-family","text-decoration","font-weight","color"]
+	let text_length = 0
     //let pretext = document.querySelector("#text");
     //const range = document.createRange();
     function style(){
@@ -29,8 +30,10 @@
         for (let br of brs){
             br.remove()
         }
-
-    	if (sel.isCollapsed){
+		
+		let nlen = e.target.innerText.length
+		if (nlen < text_length){}
+    	else if (sel.isCollapsed){
     		let nod = sel.baseNode // Le texte
     		let pnod = nod.parentNode // Le node du texte
     		let ppnod = pnod.parentNode // Le parent du node
@@ -82,6 +85,7 @@
     			}
     		}
     	}
+		text_length = nlen
     }
 </script>
 
