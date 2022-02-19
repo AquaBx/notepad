@@ -1,0 +1,29 @@
+/* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-icons {
+	font-family: 'Material Icons';
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	overflow:hidden;
+}
+html,body{
+	background-color:#303030;
+	overflow:hidden;
+}
+body > div{
+	display : flex;
+	flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+	height: 100vh;
+}

@@ -1,0 +1,99 @@
+@font-face {
+	font-family: "The Neue Black";
+	font-style: normal;
+	src: url("./fonts/TheNeue-Black.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Fanwood";
+	font-style: normal;
+	src: url("./fonts/fanwood-webfont.woff") format("woff");
+}
+@font-face {
+	font-family: "Goudy Bookletter 1911";
+	font-style: normal;
+	src: url("./fonts/goudy_bookletter_1911-webfont.woff") format("woff");
+}
+@font-face {
+	font-family: "Junction";
+	font-style: normal;
+	src: url("./fonts/junction-regular.woff") format("woff");
+}
+@font-face {
+	font-family: "LeagueScript";
+	font-style: normal;
+	src: url("./fonts/LeagueScript.woff2") format("woff2");
+}
+
+/* VFONTS */
+
+@font-face {
+	font-family: "Blackout Midnight";
+	font-style: normal;
+	src: url("./fonts/blackout_midnight-webfont.woff") format("woff");
+	font-feature-settings: "kern";
+}
+@font-face {
+	font-family: "Blackout Sunrise";
+	font-style: normal;
+	src: url("./fonts/blackout_sunrise-webfont.woff") format("woff");
+	font-feature-settings: "kern";
+}
+@font-face {
+	font-family: "ChunkFive";
+	font-style: normal;
+	src: url("./fonts/ChunkFive-Regular.woff2") format("woff2");
+	font-feature-settings: "kern";
+}
+@font-face {
+	font-family: "Knewave";
+	font-style: normal;
+	src: url("./fonts/knewave-webfont.woff") format("woff");
+	font-feature-settings: "kern";
+}
+@font-face {
+	font-family: "Knewave Outline";
+	font-style: normal;
+	src: url("./fonts/knewave-outline-webfont.woff") format("woff");
+	font-feature-settings: "kern";
+}
+@font-face {
+	font-family: "LeagueGothic";
+	font-style: normal;
+	src: url("./fonts/LeagueGothic-Regular.woff2") format("woff2");
+	font-feature-settings: "kern";
+}
+@font-face {
+	font-family: "LeagueGothic Condensed";
+	font-style: normal;
+	src: url("./fonts/LeagueGothic-Condensed.woff2") format("woff2");
+	font-feature-settings: "kern";
+}
+
+
+/* VFONTS */
+
+@font-face {
+	font-family: "LeagueMono";
+	font-style: normal;
+	src: url("./vfonts/LeagueMono[Weight\,Width].ttf") format("woff2");
+}
+@font-face {
+	font-family: "LeagueSpartan";
+	font-style: normal;
+	src: url("./vfonts/LeagueSpartan[Weight].ttf") format("woff2");
+}
+@font-face {
+	font-family: "Raleway";
+	font-style: normal;
+	src: url("./vfonts/Raleway[Weight].ttf") format("woff2");
+}
+@font-face {
+	font-family: "Secuela";
+	font-style: normal;
+	src: url("./vfonts/Secuela[Weight].ttf") format("woff2");
+}
+@font-face {
+	font-family: "Urbanist";
+	font-style: normal;
+	src: url("./vfonts/Urbanist[Weight\,Italic].ttf") format("woff2");
+}
