@@ -1,6 +1,6 @@
 /* Write your global styles here, in PostCSS syntax */
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('font.css');
 
 /* Write your global styles here, in PostCSS syntax */
 @tailwind base;
