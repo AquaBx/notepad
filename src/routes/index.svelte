@@ -4,8 +4,8 @@
 </script>
 
 <svelte:head>
-    <title></title>
-    <meta name="description" content="">    
+    <title>Notepad</title>
+    <meta name="description" content="Notepad by Tom Chauvel">    
 </svelte:head>
 
 <Menu/>
