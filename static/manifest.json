@@ -1,6 +1,7 @@
 {
   "short_name": "Notepad",
-  "name": "A simple notepad",
+  "name": "Notepad",
+  "description":"A simple notepad",
   "icons": [
     {
       "src": "favicon.png",
