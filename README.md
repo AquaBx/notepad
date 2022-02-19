@@ -1,4 +1,4 @@
-# notebook
+# notepad
 
 ## Maquette Figma
 
