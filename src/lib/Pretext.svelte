@@ -89,7 +89,7 @@
     }
 </script>
 
-<pre class="mx-auto mt-4 mb-0 rounded-3xl bg-[#ffffff]/5 shadow-md" contenteditable="true" id="text" on:input={input}></pre>
+<pre class="mx-auto mt-4 mb-0 rounded-3xl bg-[#ffffff]/5 shadow-md whitespace-pre-wrap" contenteditable="true" id="text" on:input={input}></pre>
 
 <style>
 
