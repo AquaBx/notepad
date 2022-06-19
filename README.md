@@ -12,5 +12,5 @@ https://notepad-rho.vercel.app/
 ## Todo
 - Ajouts de fonction
 - la sélection
-- retour à la ligne automatique
+- retour à la ligne automatique ✅
 - mode mobile (même si bon)
