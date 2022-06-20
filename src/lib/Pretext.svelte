@@ -87,9 +87,8 @@
     	}
 		text_length = nlen
     }
-    
-    $: {
-	document.querySelector("img").onmousedown = (e) => {
+  
+	$:document.querySelector("img").onmousedown = (e) => {
   		let parent = e.target.parentNode
   		let x = e.x;
   		let y = e.y;
@@ -101,10 +100,9 @@
   		};
 	};
 
-	document.onmouseup = (e) => {
+	$:document.onmouseup = (e) => {
   		document.onmousemove = null;
 	};
-    }
 </script>
 
 <pre class="mx-auto mt-4 mb-0 rounded-3xl bg-[#ffffff]/5 shadow-md whitespace-pre-wrap" contenteditable="true" id="text" on:input={input}></pre>
