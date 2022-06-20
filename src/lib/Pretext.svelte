@@ -87,22 +87,7 @@
     	}
 		text_length = nlen
     }
-  
-	$:document.querySelector("img").onmousedown = (e) => {
-  		let parent = e.target.parentNode
-  		let x = e.x;
-  		let y = e.y;
-  		let posY = parent.offsetTop;
-  		let posX = parent.offsetLeft;
-  		document.onmousemove = (e) => {
-    			parent.style.top = (posY - y + e.clientY).toString() + "px";
-    			parent.style.left = (posX - x + e.clientX).toString() + "px";
-  		};
-	};
 
-	$:document.onmouseup = (e) => {
-  		document.onmousemove = null;
-	};
 </script>
 
 <pre class="mx-auto mt-4 mb-0 rounded-3xl bg-[#ffffff]/5 shadow-md whitespace-pre-wrap" contenteditable="true" id="text" on:input={input}></pre>
